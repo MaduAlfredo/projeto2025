@@ -1,21 +1,32 @@
+@font-face {
+    font-family: 'GlacialIndifference-Regular';
+    src: url('glacial-indifference/GlacialIndifference-Regular.otf') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
 #siteHeader{
     width: 100%;
-    height: 150px;
+    height: 80px;
     display: flex;
-    box-sizing: border-box;
-    padding: 25px;
     flex-direction: row;
-    background-color: blue;
     justify-content: space-around;
-    align-items: baseline;
+    box-shadow: 0 .1px 10px rgb(190, 190, 190);
+    font-family: 'GlacialIndifference-Regular';
+    box-sizing: border-box;
 }
 #logo{
-    width: 100px;
+    height: 90%;
+    width: auto;
+}
+.headerIem{
+    align-items: baseline;
 }
 
 .headerMenu{
-    width: 400px;
-    height: 100%;
+    width: 50%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
+    align-items: end;
 }
+
